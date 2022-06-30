@@ -4,13 +4,12 @@ import './index.css';
 import App from "./App";
 import reportWebVitals from './reportWebVitals';
 import "tachyons";
-import {robots} from "./robots"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <div>
-      <App robots={robots}/>
+      <App />
     </div>
     
   </React.StrictMode>
